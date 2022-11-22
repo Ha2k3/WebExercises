@@ -15,19 +15,20 @@ nav{
     margin-right: 30px;
     padding-right:30px ;
     color: black;
-
+    font-size: 18px;
 }
 .nav_link li :hover{
-    color: rgb(220, 45, 45);
+    color: rgb(240, 27, 27);
 }
 .item-content {
     background-image:url("./anh/slider_1.webp");
     height: 700px;
     position: relative;
+    background-size: cover;
 }
 .title{
     text-align: center;
-    color: aliceblue;
+    color: rgb(253, 253, 253);
     font-size: 60.5px;
     font-weight: 500;
     line-height: normal;
@@ -40,8 +41,8 @@ nav{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     position: absolute;
-    left: 28%;
-    top: 25%;
+    left: 30%;
+    top: 22%;
 }
 .text{
     color: white;
@@ -60,15 +61,14 @@ nav{
 }
 .nav_link1{
     position: absolute;
-    background: rgb(249, 246, 246);
+    background: #fff;
     width: 70%;
     height: 195px;
-    left: 250px;
+    left: 282.5px;
     top: 505px;
     padding: 20px 0 0 30px ;
     border-radius: 10px 10px 0 0 ;
     display: inline-block;
-    
 }
 .in2 li{
     list-style-type: none;
@@ -76,13 +76,10 @@ nav{
     color: rgb(20, 20, 20);
     display: inline-block;
     font-size: 25px;
-
 }
-
 .nav_link1 span{
     color: black;
 }
-
 .in3 li{
     list-style-type: none;
     text-decoration: none;
@@ -94,7 +91,226 @@ nav{
     border: none;
 }
 .btn-danger:hover{
-    background-color: rgb(247, 245, 245);
     color: black;
+}
+.icon_1{
+    display:flex;
+    position:absolute;
+    margin-left: 240px ;
+}
+.icon_2{
+    display:flex;
+    position:absolute;
+    margin-left: 580px ;
+}
+.icon_3{
+    display:flex;
+    position:absolute;
+    margin-left: 880px ;
+}
+.icon_4{
+    display:flex;
+    position:absolute;
+    margin-left: 1190px ;
+}
+.icon{
+    display:flex;
+    position:absolute;
+    margin-left: 0px ;
+}
 
+.title_item {
+    
+    position:absolute;
+    padding: 20px;
+    margin: 50px;
+    left: 170px ;
+    font-size: 18px;
+}
+.tiltle2_item{ 
+    position:absolute;
+    padding: 20px;
+    margin: 90px;
+    left: 130px ;
+}
+.title_module_main p{
+    margin: 35px;
+    padding: 30px;
+}
+.title_module_main.sp1{
+    margin: 50px;
+    color: red;
+}
+.icon2{
+    display:flex;
+    position:absolute;
+    margin-left: 350px ;
+}
+.title_item2{
+    position:absolute;
+    padding: 20px;
+    margin: 50px;
+    left: 510px ;
+    font-size: 18px;
+}
+.title3_item{
+    position:absolute;
+    padding: 20px;
+    margin: 90px;
+    left: 470px ;
+}
+.icon3{
+    display:flex;
+    position:absolute;
+    margin-left: 650px ;
+}
+.title_item3{
+    position:absolute;
+    padding: 20px;
+    margin: 50px;
+    left: 810px ;
+    font-size: 18px;
+}
+.title4_item{
+    position:absolute;
+    padding: 20px;
+    margin: 90px;
+    left: 770px ;
+}
+.icon4{
+    display:flex;
+    position:absolute;
+    margin-left: 1px ;
+}
+.title_item4{
+    position:absolute;
+    padding: 20px;
+    margin: 50px;
+    left: 1120px ;
+    font-size: 18px;
+}
+.title5_item{
+    position:absolute;
+    padding: 20px;
+    margin: 90px;
+    left: 1080px ;
+}
+.sm-title{
+    margin: 130px;
+    padding: 250px;  
+    font-size: 40px;  
+}
+.sm-p{
+    margin: 50px;
+    padding-top: 200px; 
+    margin-top: -550px;
+    text-align: center;
+    
+}
+.image2{
+    width: 100%; 
+}
+.gallery_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.content-sm1 p{
+    margin: 10px 0 0;
+}
+.image0{
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    margin: 20px 0 0;
+}
+.title2{
+    padding: 85px 0 10px 0;
+    color: rgb(6, 6, 6);
+    display: block;
+    line-height: 1.7;
+    font-size: 15px;
+    font-weight: 700;
+}
+.image01{
+   margin: 20px 0 0 -350px ;
+}
+.title3{
+    padding:95px 0 10px 0;
+    color: rgb(6, 6, 6);
+    display: block;
+    line-height: 1.7;
+    font-size: 15px;
+    font-weight: 700;
+}
+.image02{
+    margin: 25px 0 0 -650px;
+}
+.image03{
+    margin: 25px 0 0 -1px;
+}
+.h2giaphong{
+    color: rgb(17, 15, 15);
+    text-align: center;
+    padding: 100px;
+    font-weight: 400;
+    font-size: 40px;
+}
+.item1{
+    text-align: center;
+    position: relative;
+}
+.item2{
+    text-align: center;
+    position: relative;
+}
+.item3{
+    text-align: center;
+    position: relative;
+}
+.item0{
+    text-align: center;
+    position: relative;
+}
+.list li{
+    list-style-type: none;
+}
+.list li a{
+    color: red;
+    text-decoration: none;
+}
+.but_datphong{
+    width: 200px;
+    height: 70px;
+    background-color: rgb(230, 55, 55);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 8px 8px 8px 8px;
+    border: #fff solid;
+}
+.but_datphong:hover{
+    background-color: rgb(93, 95, 200);
+}
+.price{
+    font-size: 30px;
+    font-weight: 650;
+}
+.duongke{
+    width: 40px;
+    margin: 15px 0 15px 185px;
+    border: 1px double rgb(7, 7, 158);
+}
+.swiper-wrapper1:hover .item0{
+    background-color: white;
+}
+.swiper-wrapper2:hover .item1{
+    background-color: white;
+}
+.swiper-wrapper3:hover .item2{
+    background-color: white;
+}
+.title h2{
+    margin: 3550px 0px 10px -240px;
+    color: rgb(18, 16, 16);
 }
